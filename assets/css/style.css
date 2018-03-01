@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+header {
+    font-size: 40px;
+    font-weight: bold;
+}
+.container {
+    width: 90%;
+    border: 1px solid black;
+}
+.well:hover {
+    background: red;
+    cursor: pointer;
+}
