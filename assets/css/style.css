@@ -1,28 +1,35 @@
 body {
     text-align: center;
     font-family: "Mouse Memoirs";
-    background: #8ad3ff;
-    color: navy;
+    font-size: 30px;
+    background: url("../images/disney-castle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 header {
     font-size: 40px;
     font-weight: bold;
-    color: gold;
+    margin: 20px;
 }
 .container {
     width: 90%;
-    border: 1px solid navy;
+    border: 5px solid #FC8BB1;
+    box-shadow: 0 0 20px #FDE28D;
 }
 .well {
-    font-size: 20px;
-    background: lightgoldenrodyellow;
+    background: rgba(158, 202, 237, 0.75);
+    color: white;
+
 }
 .well:hover {
     border: 5px solid #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
+    background: #9ecaed;
     cursor: pointer;
 }.answerChoice {
     background: #9ecaed;
+    color: lightgray;
 }
 #answer-options {
     position: relative;
@@ -36,19 +43,25 @@ header {
     width: 100%;
     z-index: 2;
     color: white;
-    text-align: center;
-    font-size: 20px;
+    font-size: 50px;
+    vertical-align: middle;
 }
 .container {
     position: relative;
 }
 .game-over {
-    background: lightskyblue;
+    background: #9ecaed;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 3;
     color: white;
-    text-align: center;
+    font-size: 50px;
+}
+button {
+    background:#FC8BB1;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #FDE28D;
 }
